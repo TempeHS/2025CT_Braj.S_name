@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] private float movespeed = 2f
+    [SerializeField] private float movespeed = 2f;
 
     private Rigidbody2D rb; 
 
@@ -31,6 +31,7 @@ public class Enemy : MonoBehaviour
     void FixedUpdate()
     {
         Vector2 direction = (checkpoint.position - transform.position).normalized;
+        transform.right = checkpoint.position - transform.position;
         rb.velocity = direction * movespeed;
     }
 }
