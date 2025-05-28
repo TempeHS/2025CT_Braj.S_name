@@ -8,7 +8,9 @@ public class Enemy : MonoBehaviour
 
     private Rigidbody2D rb; 
 
-    [SerializeField] private Transform checkpoint;
+    private Transform checkpoint;
+
+    private int index = 0;
 
     void Awake()
     {
@@ -17,14 +19,21 @@ public class Enemy : MonoBehaviour
     
     void Start()
     {
-        
+        checkpoint = EnemyManager.main.checkpoints[index];
     }
 
     void Update()
     {
-        if(Vector2.Distance(checkpoint.transform.position,transform.position) <= 0.1f)
+        checkpoint = EnemyManager.main.checkpoints[index];
+
+        if (Vector2.Distance(checkpoint.transform.position, transform.position) <= 0.1f)
         {
-            Debug.Log("Checkpoint Reached");
+            index++;
+
+            if (index >=     EnemyManager.main.checkpoints.Length)
+            {
+                Destroy(gameObject);
+            }
         }
     }
 
