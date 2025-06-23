@@ -36,7 +36,7 @@ public class Enemy : MonoBehaviour
             }
         }
     }
-
+ 
     void FixedUpdate()
     {
         Vector2 direction = (checkpoint.position - transform.position).normalized;
