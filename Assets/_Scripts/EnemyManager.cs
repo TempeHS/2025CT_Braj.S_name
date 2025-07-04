@@ -32,21 +32,21 @@ public class EnemyManager : MonoBehaviour
 
     void Start()
     {
-        Setwave();
+        SetWave();
     }
 
-    void Update();
+    void Update()
     {
-        
+
     }
-    
+
     private void SetWave()
     {
         zombieCount = Mathf.RoundToInt(enemyCount * zombieRate);
         fastZombieCount = Mathf.RoundToInt(enemyCount * fastZombieRate);
         tankZombieCount = Mathf.RoundToInt(enemyCount * tankZombieRate);
 
-        waveset = new List<gameObject>();
+        waveset = new List<GameObject>();
 
         for (int i = 0; i < zombieCount; i++)
         {
@@ -71,7 +71,8 @@ public class EnemyManager : MonoBehaviour
         for (int i = 0; i < waveset.Count; i++)
         {
             Instantiate(waveset[i], spawnpoint.position, Quaternion.identity);
-            yield return new waitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.5f);
         }
     }
-}   
+
+}
