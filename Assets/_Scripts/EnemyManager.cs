@@ -42,25 +42,26 @@ public class EnemyManager : MonoBehaviour
     }
 
     void Update()
+{
+    GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+    Debug.Log("Enemies left: " + enemies.Length + ", wavedone: " + wavedone);
+
+    if (Input.GetKeyDown(KeyCode.Return) && wavedone && enemies.Length == 0)
     {
-        GameObject[] enemies = GameObject.FindGameObjectsWithTag("Enemy");
+        wave++;
+        wavedone = false;
+        enemyCount += Mathf.RoundToInt(enemyCount * enemyCountRate);
+        SetWave();
+    }
 
-        if (Input.GetKeyDown(KeyCode.Return) && wavedone && enemies.Length == 0)
+    if (Input.GetKeyDown(KeyCode.D) && wavedone)
+    {
+        for (int i = 0; i < enemies.Length; i++)
         {
-            wave++;
-            wavedone = false;
-            enemyCount += Mathf.RoundToInt(enemyCount * enemyCountRate);
-            SetWave();
-        }
-
-        if (Input.GetKeyDown(KeyCode.D) && wavedone)
-        {
-            for (int i = 0; i < enemies.Length; i++)
-            {
-                Destroy(enemies[i]);
-            }
+            Destroy(enemies[i]);
         }
     }
+}
 
     private void SetWave()
     {
@@ -101,26 +102,28 @@ public class EnemyManager : MonoBehaviour
 
 
     public List<GameObject> Shuffle(List<GameObject> waveSet)
-    {
-        List<GameObject> temp = new List<GameObject>();
-        List<GameObject> result = new List<GameObject>();
-        temp.AddRange(waveSet);
+{
+    List<GameObject> temp = new List<GameObject>();
+    List<GameObject> result = new List<GameObject>();
+    temp.AddRange(waveSet);
 
-        for (int i = 0; i < waveSet.Count; i++) ;
-        {
-            int index = Random.Range(0, temp.Count - 1);
-            result.Add(temp[index]);
-            temp.RemoveAt(index);
-        }
-    }
-    IEnumerator spawn()
+    for (int i = 0; i < waveSet.Count; i++)
     {
-        for (int i = 0; i < waveset.Count; i++) ;
-        {
-            Instantiate(waveset[i], spawnpoint.position, Quaternion.identity);
-            yield return new WaitForSeconds(Random.Range(spawnDelayMin, spawnDelayMax));
-        }
-        wavedone = true;
+        int index = Random.Range(0, temp.Count);
+        result.Add(temp[index]);
+        temp.RemoveAt(index);
     }
+    return result;
+}
+
+IEnumerator spawn()
+{
+    for (int i = 0; i < waveset.Count; i++)
+    {
+        Instantiate(waveset[i], spawnpoint.position, Quaternion.identity);
+        yield return new WaitForSeconds(Random.Range(spawnDelayMin, spawnDelayMax));
+    }
+    wavedone = true;
+}
 
 }
