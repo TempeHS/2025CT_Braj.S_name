@@ -4,9 +4,10 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
+    [SerializeField] private int health = 50;
     [SerializeField] private float movespeed = 2f;
 
-    private Rigidbody2D rb; 
+    private Rigidbody2D rb;
 
     private Transform checkpoint;
 
@@ -16,7 +17,7 @@ public class Enemy : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
     }
-    
+
     void Start()
     {
         checkpoint = EnemyManager.main.checkpoints[index];
@@ -30,17 +31,27 @@ public class Enemy : MonoBehaviour
         {
             index++;
 
-            if (index >=     EnemyManager.main.checkpoints.Length)
+            if (index >= EnemyManager.main.checkpoints.Length)
             {
                 Destroy(gameObject);
             }
         }
+
+        if (health <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
- 
+
     void FixedUpdate()
     {
         Vector2 direction = (checkpoint.position - transform.position).normalized;
         transform.right = checkpoint.position - transform.position;
         rb.velocity = direction * movespeed;
+    }
+
+    public void damage(int damage)
+    {
+        health -= damage;
     }
 }
