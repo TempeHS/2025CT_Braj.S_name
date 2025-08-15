@@ -4,14 +4,15 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    [SerializeField] private int health = 50;
+    public int health = 50;
     [SerializeField] private float movespeed = 2f;
 
     private Rigidbody2D rb;
 
     private Transform checkpoint;
 
-    private int index = 0;
+    [NonSerialized] public int index = 0;
+    [NonSerialized] public float distance = 0;
 
     void Awake()
     {
@@ -26,6 +27,7 @@ public class Enemy : MonoBehaviour
     void Update()
     {
         checkpoint = EnemyManager.main.checkpoints[index];
+        distance = Vector2.Distance(transform.position, EnemyManager.main.checkpoints[index].position);
 
         if (Vector2.Distance(checkpoint.transform.position, transform.position) <= 0.1f)
         {

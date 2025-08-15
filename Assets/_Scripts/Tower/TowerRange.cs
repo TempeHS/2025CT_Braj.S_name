@@ -16,7 +16,39 @@ public class TowerRange : MonoBehaviour
     {
         if (targets.Count > 0)
         {
-            Tower.target = targets[0];
+            if (Tower.first)
+            {
+                float miniDistance = Mathf.Infinity;
+                int maxIndex = 0;
+                GameObject firstTarget = null;
+
+                foreach (GameObject target in targets)
+                {
+                    int index = target.GetComponent<Enemy>().index;
+                    float distance = target.GetComponent<Enemy>().distance;
+
+                    if (index > maxIndex || (index == maxIndex && distance < miniDistance))
+                    {
+                        maxIndex = index;
+                        miniDistance = distance;
+                        firstTarget = target;
+                    }
+                }
+
+                Tower.target = firstTarget;
+            }
+            else if (Tower.last)
+            {
+
+            }
+            else if (Tower.strong)
+            {
+
+            }
+            else
+            {
+                Tower.target = targets[0];
+            }
         }
     }
 
