@@ -11,8 +11,8 @@ public class Enemy : MonoBehaviour
 
     private Transform checkpoint;
 
-    [NonSerialized] public int index = 0;
-    [NonSerialized] public float distance = 0;
+    [System.NonSerialized] public int index = 0;
+    [System.NonSerialized] public float distance = 0;
 
     void Awake()
     {

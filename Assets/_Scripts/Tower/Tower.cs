@@ -14,7 +14,7 @@ public class Tower : MonoBehaviour
     public bool last = false;
     public bool strong = false;
 
-    [NonSerialized]
+    [System.NonSerialized]
     public GameObject target;
     private float cooldown = 0f;
 
