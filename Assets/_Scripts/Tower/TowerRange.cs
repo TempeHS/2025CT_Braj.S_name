@@ -80,6 +80,10 @@ public class TowerRange : MonoBehaviour
                 Tower.target = targets[0];
             }
         }
+        else
+        {
+            Tower.target = null;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
