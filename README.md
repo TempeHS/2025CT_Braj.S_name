@@ -1,10 +1,8 @@
-# Project Title
-
-My Game
+# Zombie Tower Defence
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+This game was created as part of a school assesment. The theme was "Games for Change" ... . In the game Zombie Tower Defence is a tower defence game. A tower defence game is a subgenre of strategy games where the goal is to defend the player's territories or possessions by obstructing the enemy attackers or by stopping enemies from reaching the exits, usually achieved by placing defensive structures on or along their path of attack.
 
 ## Getting Started
 
