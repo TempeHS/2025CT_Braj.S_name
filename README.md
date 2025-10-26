@@ -68,8 +68,11 @@ code blocks for commands
 
 This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
 
-## Acknowledgments
+## Bibliography
 
 Inspiration, code snippets, etc.
-* [Github md syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-* [TempeHS Unity template](https://github.com/TempeHS/TempeHS_Unity_DevContainer)
+* [Enemy Movement Script](https://www.youtube.com/watch?v=ValNNMB1s3U&list=PLJqgAlQY92wDFEynd67IhzcdUOxdC70nc&index=7)
+* [Enemy Spawning Script](https://www.youtube.com/watch?v=hDtDI0uX42M&list=PLJqgAlQY92wDFEynd67IhzcdUOxdC70nc&index=6)
+* [Turret AI Script](https://www.youtube.com/watch?v=Moamtkc3rcY&list=PLJqgAlQY92wDFEynd67IhzcdUOxdC70nc&index=5)
+* [Turret Targetting Script](https://www.youtube.com/watch?v=dTzENINp6dA&list=PLJqgAlQY92wDFEynd67IhzcdUOxdC70nc&index=4)
+* [Create Dynamic Tile Maps](https://www.youtube.com/watch?v=g83_gwEO0kM&t=185s)
