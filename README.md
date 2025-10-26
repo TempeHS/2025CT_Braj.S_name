@@ -36,9 +36,14 @@ The objective of Zombie Tower Defence is to stop the everlastng waves of zombies
 code blocks for commands
 ```
 
-## Help
+## To-Dos
+🟢Working Game (the game runs)
+🟢Variety of Zombies (Normal, Fast, Tank etc)
+🟢Working Map
+🟡Fully working and playable game
+🟡Fully implemented assets
+🔴Working Game (can complete the games objective)
 
-Any advise for common problems or issues.
 ```
 command to run if program contains helper info
 ```
