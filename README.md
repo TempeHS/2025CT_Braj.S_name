@@ -12,6 +12,9 @@ This game was created as part of a school assesment. The theme was "Games for Ch
 ## Game Objective
 The objective of Zombie Tower Defence is to stop the everlastng waves of zombies that approach the arena. The start at the beggining of the path and take your health at the end of the path. You lose when you run out of health and the goal is to try and reach the highest round you possibly could. You cannot "beat" this game, however this doesn't take away from the enjoyability of the game as this game is still fun and enjoyable for all ages.
 
+![Animation](https://github.com/user-attachments/assets/96f2859b-3e4d-44f3-a00e-01b493cb1719)
+
+
 ## Getting Started
 ![Starting-screen](https://github.com/user-attachments/assets/fdef5862-ea36-4f2a-865d-83eb2b62f6e6)
 
