@@ -37,23 +37,24 @@ code blocks for commands
 ```
 
 ## To-Dos
-🟢Working Game (the game runs)
-🟢Variety of Zombies (Normal, Fast, Tank etc)
-🟢Working Map
-🟡Fully working and playable game
-🟡Fully implemented assets
-🔴Working Game (can complete the games objective)
+🟢**Working Game** (the game runs)
 
-```
-command to run if program contains helper info
-```
+🟢**Variety of Zombies** (Normal, Fast, Tank etc)
+
+🟢**Working Map**
+
+🟡**Fully working and playable game**
+
+🟡**Fully implemented assets**
+
+🔴**Working Game** (can complete the games objective)
 
 ## Authors
+**Huy Le**
 
-Contributors names and contact info
+**Braj Sapkota**
 
-ex. Mr Jones
-ex. [@benpaddlejones](https://github.com/benpaddlejones)
+[@BrajSapkota](https://github.com/BrajSapkota)
 
 ## Version History
 
