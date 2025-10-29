@@ -43,14 +43,24 @@ code blocks for commands
 
 🟢**Working Map**
 
-🟡**Fully working and playable game**
+🟢**Unlimited amount of waves**
+
+🟡**Fully finished and polished game**
 
 🟡**Fully implemented assets**
 
-🔴**Working Game** (can complete the games objective)
+🟡**Placable Turrets**
+
+🔴**Player Health Bar**
+
+🔴**Allow players to earn coins**
+
+🔴**Main Menu Screen**
+
+🔴**Completable Game** (can complete the games objective)
 
 ## Authors
-**Huy Le**
+Assets: **Huy Le**
 
 **Braj Sapkota**
 
@@ -66,7 +76,7 @@ code blocks for commands
 
 ## License
 
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+This project is licensed under the <ins>GNU GENERAL PUBLIC LICENSE</ins> - see the LICENSE.md file for details
 
 ## Bibliography
 
