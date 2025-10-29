@@ -78,6 +78,16 @@ Assets: **Huy Le**
 
 This project is licensed under the <ins>GNU GENERAL PUBLIC LICENSE</ins> - see the LICENSE.md file for details
 
+## Assets
+
+![normal-zombie](https://github.com/user-attachments/assets/870df2be-7dd0-49bb-afc5-b8ba397d6510)
+![Normal zombie death animation](https://github.com/user-attachments/assets/1e4cb874-204a-4bda-af7c-658b68bc3a14)
+![fast zombie](https://github.com/user-attachments/assets/ed6357db-e99a-4c2a-8633-f19e787a4ac8)
+![fast zombie death](https://github.com/user-attachments/assets/19c672b6-1bcd-4bfe-a34b-f5d8e76e33cb)
+![tank-zombies](https://github.com/user-attachments/assets/67d01d16-526a-43ed-8371-8ce2a139a4f9)
+![Tank zombie death animation](https://github.com/user-attachments/assets/32c19579-218e-4967-8f5f-08c23afe37b6)
+
+
 ## Bibliography
 
 Inspiration, code snippets, etc.
