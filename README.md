@@ -78,6 +78,13 @@ Assets: **Huy Le**
 
 This project is licensed under the <ins>GNU GENERAL PUBLIC LICENSE</ins> - see the LICENSE.md file for details
 
+## Code Snippets
+
+### Set Wave Function
+
+<img width="593" height="569" alt="image" src="https://github.com/user-attachments/assets/dc7a5c4e-e6a4-47ff-ac59-9a8ebb726262" />
+
+
 ## Assets
 
 ![normal-zombie](https://github.com/user-attachments/assets/870df2be-7dd0-49bb-afc5-b8ba397d6510)
