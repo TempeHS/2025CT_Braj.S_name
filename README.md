@@ -56,14 +56,6 @@ Assets: **Huy Le**
 
 [@BrajSapkota](https://github.com/BrajSapkota)
 
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]() or see [branch]()
-* 0.1
-    * Initial Release
-
 ## License
 
 This project is licensed under the <ins>GNU GENERAL PUBLIC LICENSE</ins> - see the LICENSE.md file for details
@@ -98,3 +90,4 @@ Inspiration, code snippets, etc.
 * [Turret AI Script](https://www.youtube.com/watch?v=Moamtkc3rcY&list=PLJqgAlQY92wDFEynd67IhzcdUOxdC70nc&index=5)
 * [Turret Targetting Script](https://www.youtube.com/watch?v=dTzENINp6dA&list=PLJqgAlQY92wDFEynd67IhzcdUOxdC70nc&index=4)
 * [Create Dynamic Tile Maps](https://www.youtube.com/watch?v=g83_gwEO0kM&t=185s)
+* [Creation of turret variants](https://www.youtube.com/watch?v=I2lyTkngtPM&t=468s)
