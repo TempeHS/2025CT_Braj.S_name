@@ -66,6 +66,12 @@ This project is licensed under the <ins>GNU GENERAL PUBLIC LICENSE</ins> - see t
 
 <img width="593" height="569" alt="image" src="https://github.com/user-attachments/assets/dc7a5c4e-e6a4-47ff-ac59-9a8ebb726262" />
 
+### Tower/Turret Stats, Targetting Mode and Effects
+<img width="599" height="889" alt="image" src="https://github.com/user-attachments/assets/a4383182-f27f-42b0-b4f3-4869bc7ae919" />
+
+### Enemy Script
+<img width="858" height="1131" alt="image" src="https://github.com/user-attachments/assets/2d7b815a-5f11-42f3-b7c4-4ce747fe3566" />
+
 
 ## Assets
 
