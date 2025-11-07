@@ -49,13 +49,6 @@ The objective of Zombie Tower Defence is to stop the everlastng waves of zombies
 
 🔴**Completable Game** (can complete the games objective)
 
-## Authors
-Assets: **Huy Le**
-
-**Braj Sapkota**
-
-[@BrajSapkota](https://github.com/BrajSapkota)
-
 ## Controls
 
 Left click controls tower placement, you click on what tower you want, and release to drop, and return key sends you to the next round
@@ -104,3 +97,10 @@ Inspiration, code snippets, etc.
 * [Turret Targetting Script](https://www.youtube.com/watch?v=dTzENINp6dA&list=PLJqgAlQY92wDFEynd67IhzcdUOxdC70nc&index=4)
 * [Create Dynamic Tile Maps](https://www.youtube.com/watch?v=g83_gwEO0kM&t=185s)
 * [Creation of turret variants](https://www.youtube.com/watch?v=I2lyTkngtPM&t=468s)
+
+## Authors
+Assets: **Huy Le**
+
+**Braj Sapkota**
+
+[@BrajSapkota](https://github.com/BrajSapkota)
