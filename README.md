@@ -56,6 +56,13 @@ Assets: **Huy Le**
 
 [@BrajSapkota](https://github.com/BrajSapkota)
 
+## Controls
+
+Left click controls tower placement, you click on what tower you want, and release to drop, and return key sends you to the next round
+
+<img width="2048" height="2048" alt="598676-Product-0-I-637974588239077952" src="https://github.com/user-attachments/assets/368bc4f6-2949-4f36-8d61-055e740545c0" />
+
+
 ## License
 
 This project is licensed under the <ins>GNU GENERAL PUBLIC LICENSE</ins> - see the LICENSE.md file for details
