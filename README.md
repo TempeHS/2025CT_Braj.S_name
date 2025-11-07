@@ -2,6 +2,11 @@
 
 <img width="384" height="192" alt="Game-logo" src="https://github.com/user-attachments/assets/46903789-7a7d-4bac-ac8e-022eaea2caf5" />
 
+## Game Overveiw
+
+
+
+https://github.com/user-attachments/assets/bad88024-8e82-4f3d-b8e6-9485e8ddd119
 
 
 
@@ -18,23 +23,6 @@ The objective of Zombie Tower Defence is to stop the everlastng waves of zombies
 ## Getting Started
 ![Starting-screen](https://github.com/user-attachments/assets/fdef5862-ea36-4f2a-865d-83eb2b62f6e6)
 
-### Dependencies
-
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
-
-### Installing
-
-* How/where to download your program
-* Any modifications needed to be made to files/folders
-
-### Executing program
-
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
 
 ## To-Dos
 🟢**Working Game** (the game runs)
