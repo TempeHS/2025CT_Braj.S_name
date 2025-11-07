@@ -90,13 +90,18 @@ This project is licensed under the <ins>GNU GENERAL PUBLIC LICENSE</ins> - see t
 
 ## Bibliography
 
-Inspiration, code snippets, etc.
+
 * [Enemy Movement Script](https://www.youtube.com/watch?v=ValNNMB1s3U&list=PLJqgAlQY92wDFEynd67IhzcdUOxdC70nc&index=7)
 * [Enemy Spawning Script](https://www.youtube.com/watch?v=hDtDI0uX42M&list=PLJqgAlQY92wDFEynd67IhzcdUOxdC70nc&index=6)
 * [Turret AI Script](https://www.youtube.com/watch?v=Moamtkc3rcY&list=PLJqgAlQY92wDFEynd67IhzcdUOxdC70nc&index=5)
 * [Turret Targetting Script](https://www.youtube.com/watch?v=dTzENINp6dA&list=PLJqgAlQY92wDFEynd67IhzcdUOxdC70nc&index=4)
 * [Create Dynamic Tile Maps](https://www.youtube.com/watch?v=g83_gwEO0kM&t=185s)
 * [Creation of turret variants](https://www.youtube.com/watch?v=I2lyTkngtPM&t=468s)
+
+Miscellaneous 
+* [How to make a Video Game in Unity - BASICS (E01)](https://www.youtube.com/watch?v=IlKaB1etrik&t=13s)
+* [Unity Tilemap Guide](https://www.youtube.com/watch?v=otQH2M-Lkd0)
+
 
 ## Authors
 Assets: **Huy Le**
